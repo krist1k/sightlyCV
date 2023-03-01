@@ -39,8 +39,8 @@ class CircleImageCreator:
     def create_default_image_for_sightly_cv(self, size: int = 300, resample: int = 300):
         """
         Create default circle image.
-        :param size:
-        :param resample:
+        :param size: PIL thumbnail size.
+        :param resample: PIL thumbnail resample.
         :return: Result image path.
         """
         self._image_rounder()
